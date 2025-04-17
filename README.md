@@ -40,6 +40,11 @@ A project by *The Schrödinger Code*
 
 ---
 
+## Demo Video
+- *Link:* https://drive.google.com/file/d/1CbWn1CIkHbRsCgFL30RLqWI02SgsUVMx/view?usp=sharing
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
