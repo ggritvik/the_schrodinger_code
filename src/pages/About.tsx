@@ -8,46 +8,47 @@ import { Link } from "react-router-dom";
 const About = () => {
   const teamMembers = [
     {
-      name: "Alex Morgan",
-      role: "Founder & CEO",
-      image: "https://randomuser.me/api/portraits/women/45.jpg",
+      name: "Ninaad Saxena",
+      role: "Team Lead - AI/ML",
+      image: "https://drive.google.com/file/d/1mdXpEoZ93QVJvkQ4eo9I8f1poR3YS-OF/view?usp=sharing",
       bio: "Former fashion designer who became passionate about sustainable practices after witnessing the industry's waste first-hand."
     },
     {
-      name: "Marcus Chen",
-      role: "CTO",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      name: "Ritvik Srivastava",
+      role: "Backend",
+      image: "https://drive.google.com/file/d/1UFnhlZOyqxEsM54XyTGG4UAAaH3ei2kL/view?usp=sharing",
       bio: "AI expert with a background in computer vision and generative models, focused on creating technology that serves sustainability."
     },
     {
-      name: "Sophia Patel",
-      role: "Head of Sustainability",
-      image: "https://randomuser.me/api/portraits/women/76.jpg",
+      name: "Utkarshi Birla",
+      role: "Frontend",
+      image: "https://drive.google.com/file/d/1oxYcluzgAZy1ONviNCvUnqBrMXXrbQPT/view?usp=sharing",
       bio: "Environmental scientist specializing in textile recycling and circular economy practices in the fashion industry."
     }
   ];
 
   const milestones = [
     {
-      year: "2022",
+      year: "2025",
       title: "The Beginning",
       description: "Stitch It Forward was founded with a mission to reduce textile waste through innovative technology."
-    },
-    {
-      year: "2023",
-      title: "AI Integration",
-      description: "Launched our proprietary AI model for analyzing garments and generating creative upcycling ideas."
-    },
-    {
-      year: "2024",
-      title: "Community Growth",
-      description: "Reached 10,000 users and partnered with 200+ local tailors across the country."
-    },
-    {
-      year: "2025",
-      title: "Global Expansion",
-      description: "Planning international expansion and developing advanced features for broader impact."
     }
+    // },
+    // {
+    //   year: "2023",
+    //   title: "AI Integration",
+    //   description: "Launched our proprietary AI model for analyzing garments and generating creative upcycling ideas."
+    // },
+    // {
+    //   year: "2024",
+    //   title: "Community Growth",
+    //   description: "Reached 10,000 users and partnered with 200+ local tailors across the country."
+    // },
+    // {
+    //   year: "2025",
+    //   title: "Global Expansion",
+    //   description: "Planning international expansion and developing advanced features for broader impact."
+    // }
   ];
 
   return (
@@ -131,11 +132,11 @@ const About = () => {
                     alt="Upcycling process" 
                     className="rounded-lg h-56 w-full object-cover"
                   />
-                  {/* <img 
+                  <img 
                     src="https://images.unsplash.com/photo-1581929955373-8e41da644abb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
                     alt="Sustainable community" 
                     className="rounded-lg h-40 w-full object-cover"
-                  /> */}
+                  />
                 </div>
               </div>
             </div>
@@ -143,7 +144,7 @@ const About = () => {
         </section>
 
         {/* Team Section */}
-        {/* <section className="py-16 bg-sage-50">
+        <section className="py-16 bg-sage-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-display font-bold text-forest-800 mb-4">
@@ -181,7 +182,7 @@ const About = () => {
               ))}
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* History Timeline */}
         <section className="py-16 bg-white">
