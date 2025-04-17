@@ -98,21 +98,3 @@ This project is licensed under the MIT License.
 
 *Team:* The Schrödinger Code  
 For questions or suggestions, please open an issue or contact the maintainers via GitHub.
-
----
-
-Feel free to add screenshots, demo links, or further documentation as your project evolves!
-
-Citations:
-[1] https://github.com/othneildrew/Best-README-Template
-[2] https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc
-[3] https://www.readme-templates.com
-[4] https://github.com/Louis3797/awesome-readme-template
-[5] https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
-[6] https://github.com/sfbrigade/data-science-wg/blob/master/dswg_project_resources/Project-README-template.md
-[7] https://www.makeareadme.com
-[8] https://www.reddit.com/r/programming/comments/l0mgcy/github_readme_templates_creating_a_good_readme_is/
-[9] https://gist.github.com/andreasonny83/7670f4b39fe237d52636df3dec49cf3a
-[10] https://www.youtube.com/watch?v=G-EGDH50hGE
-
----
