@@ -33,7 +33,7 @@ const Gallery = () => {
     {
       id: 2,
       beforeImage: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      afterImage: "https://yourdesignstore.s3.amazonaws.com/uploads/yds/productImages/thumb/167783564469961647006467622b5303cbf8dYDS_Product_92x.jpg",
+      afterImage: "https://images.unsplash.com/photo-1622434641406-a158123450f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=404&q=80",
       title: "T-Shirt to Chic Crop Top",
       creator: {
         name: "Alex M.",
