@@ -1,8 +1,7 @@
-
 import { GarmentAnalysis, UpcyclingIdea } from './types';
 import { sustainabilityData, getMaterialComposition } from './sustainabilityData';
 import { garmentToIdeas } from './mockIdeas';
-import { detectGarmentType, analyzeGarmentCondition } from './imageAnalysis';
+import { detectGarmentTypeWithGemini, analyzeGarmentConditionWithGemini } from './geminiApi'; // Import Gemini API functions
 
 // Main function to analyze garment from image
 export const analyzeGarment = async (
@@ -35,12 +34,12 @@ export const analyzeGarment = async (
       };
     }
     
-    // If no user selection, use AI detection with improved logging
-    console.log("No user selection, attempting AI detection");
+    // If no user selection, use Gemini API detection with improved logging
+    console.log("No user selection, attempting Gemini API detection");
     console.time('garmentDetection');
-    const garmentType = await detectGarmentType(imageDataUrl);
+    const garmentType = await detectGarmentTypeWithGemini(imageDataUrl); // Use Gemini API for garment type detection
     console.timeEnd('garmentDetection');
-    console.log(`AI-detected garment type: ${garmentType}`);
+    console.log(`Gemini-detected garment type: ${garmentType}`);
     
     // Get material composition based on garment type
     const materials = getMaterialComposition(garmentType);
@@ -48,8 +47,8 @@ export const analyzeGarment = async (
     // Generate sustainability impact data
     const impactData = sustainabilityData[garmentType] || sustainabilityData.default;
     
-    // Assess condition using our analysis
-    const condition = await analyzeGarmentCondition(garmentType, imageDataUrl);
+    // Assess condition using Gemini API
+    const condition = await analyzeGarmentConditionWithGemini(garmentType, imageDataUrl); // Use Gemini API for condition analysis
     
     return {
       garmentType: garmentType.charAt(0).toUpperCase() + garmentType.slice(1),
