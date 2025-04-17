@@ -96,5 +96,10 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-*Team:* The Schrödinger Code  
-For questions or suggestions, please open an issue or contact the maintainers via GitHub.
+For questions or suggestions, feel free to reach out to us:
+
+- **Utkarshi Birla:** birlautkarshi@gmail.com  
+- **Ritvik Srivastava:** ritviksrivastava005@gmail.com  
+- **Ninaad Saxena:** ninaadsaxenaofficial@gmail.com
+
+---
