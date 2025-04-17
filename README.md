@@ -6,7 +6,7 @@ A project by *The Schrödinger Code*
 
 ## 🌱 Overview
 
-*Stitch It Forward* is a collaborative platform that empowers communities to embrace sustainable fashion by upcycling old or unwanted clothing. Users can join or start upcycling projects, access guided tutorials, collaborate with others, and donate finished creations to those in need. Our mission is to reduce textile waste, foster creativity, and build a culture of sharing and sustainability.
+*Stitch It Forward* is a collaborative platform that empowers communities to embrace sustainable fashion by upcycling old or unwanted clothing. Users can start upcycling projects, access DIY guides based on the garments, find local tailors to help them, and donate finished creations to those in need. Our mission is to reduce textile waste, foster creativity, and build a culture of sharing and sustainability.
 
 ---
 
