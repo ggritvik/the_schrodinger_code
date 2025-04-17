@@ -29,7 +29,7 @@ A project by *The Schrödinger Code*
 - *Collaborate:* Connect with others, share ideas, and work together on upcycling initiatives.
 - *Donate:* Give finished upcycled creations to individuals and communities in need.
 - *Learn & Teach:* Access and contribute upcycling techniques to foster creativity and skill development.
-- 
+
 ---
 
 ## 🛠️ Tech Stack
